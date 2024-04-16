@@ -1,0 +1,67 @@
+
+.category {
+  text-align: center;
+  padding-top: 100px;
+  text-decoration: underline;
+}
+
+.card-carousel-container {
+  overflow: hidden;
+  padding-top: 100px;
+}
+
+.carousel-card {
+  transition: transform 0.5s ease;
+}
+
+.middle {
+  transform: scale(1.2) translateY(-10px);
+  cursor: pointer; /* Add pointer cursor for the middle card */
+}
+
+.first {
+  transform: translateX(-50%) scale(0.9);
+}
+
+.last {
+  transform: scale(0.9); /* Make the last card larger */
+}
+
+.side {
+  transform: scale(0.9);
+}
+.card-carousel-container {
+  position: relative;
+}
+
+.arrow-navigation {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  padding: 0 20px; /* Adjust padding as needed */
+}
+
+.arrow-navigation .arrow-left,
+.arrow-navigation .arrow-right {
+  cursor: pointer;
+  padding: 10px;
+  background-color: rgba(0, 0, 0, 0.5);
+  border-radius: 50%;
+  transition: background-color 0.3s ease;
+}
+
+.arrow-navigation .arrow-left:hover,
+.arrow-navigation .arrow-right:hover {
+  background-color: rgba(0, 0, 0, 0.7);
+}
+
+.arrow-navigation .arrow-left svg,
+.arrow-navigation .arrow-right svg {
+  color: #fff;
+  font-size: 24px;
+}
+
+

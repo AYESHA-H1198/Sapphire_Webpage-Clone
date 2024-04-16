@@ -1,0 +1,67 @@
+.footer {
+    margin-top: 70px;
+    background-color: #333; /* Set background color */
+    color: #fff; /* Set text color */
+    padding: 20px 0; /* Add padding at the top and bottom */
+    font-size: 15px;
+  
+    /* Align text to center */
+    text-align: center;
+  }
+  
+  /* Style for column headings */
+  .footer h5 {
+    margin-bottom: 20px; /* Add space below each heading */
+  }
+  
+  /* Style for links in footer */
+  .footer a {
+    color: #fff; /* Set link color */
+    text-decoration: none; /* Remove underline from links */
+  }
+  
+  /* Media query for smaller screens */
+  @media (max-width: 768px) {
+    .footer {
+      padding: 20px; /* Reduce padding for smaller screens */
+    }
+  }
+  .email-subscription {
+    display: flex; /* Use flexbox to align items horizontally */
+    align-items: center; /* Align items vertically */
+  }
+  
+  .email-subscription input[type="email"] {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px 0 0 5px;
+    flex: 1; /* Take up remaining space */
+  }
+  
+  .email-subscription button {
+    padding: 10px 20px;
+    background-color: #000;
+    border: none;
+    color: #fff;
+    border-radius: 0 5px 5px 0;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s, color 0.3s;
+  }
+  
+  .email-subscription button:hover {
+    background-color: #333;
+    color: #ccc;
+  }
+  .social-icons a {
+    margin-right: 10px; /* Adjust spacing between icons */
+    color: #000; /* Set default color for icons */
+    font-size: 20px; /* Adjust icon size */
+    transition: color 0.3s; /* Add transition for smooth color change */
+    margin-top: 250px;
+  }
+  
+  .social-icons a:hover {
+    color: #333; /* Change color on hover */
+  }
+  
